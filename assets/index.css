@@ -1,0 +1,46 @@
+/*Edits the font, colour, and margins of the website.*/
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999b84;
+    background-color: #F4EEED;
+}
+
+/*Creates a header of the website, use on heading level 1.*/
+.header {
+    padding: 30px;
+    text-align: center;
+}
+
+/*Creates a custom-made horizontal lines for the different headings.*/
+.hrline {
+    height: 2px;
+    background-color: #ddb7ab;
+}
+
+/*Edits the image by making it round, positioning it in the center, and
+adds a border around the image.*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid #efd9d1;
+}
+
+/*References:
+    Fixed the white spaces left on the sides of the header.
+    Source: https://www.codecademy.com/forum_questions/5504542a9113cbf37700444a
+
+    Wanted to make personalised horizontal lines.
+    Source: https://www.shecodes.io/athena/98593-how-to-change-the-length-of-a-horizontal-line-in-html
+
+    Wanted to make a three column layout.
+    Source: https://www.positioniseverything.net/html-3-column-layout/
+
+    Wanted to make the image round and to center it.
+    source: https://www.w3schools.com/css/css3_images.asp
+
+    Wanted to add a border to the image.
+    Source: https://www.w3schools.com/howto/howto_css_border_image.asp
+*/
